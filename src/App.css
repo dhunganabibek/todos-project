@@ -1,0 +1,50 @@
+.App {
+    display: flex;
+    background-image: radial-gradient(ellipse closest-side at 50% 50%, #3a3f45, #37383c 25%, #343233);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    margin: 20px 0;
+    color: white;
+}
+
+.form-input {
+    padding-left: 10px;
+    min-width: 500px;
+    background-color: transparent;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 20px !important;
+}
+
+.form-input::placeholder {
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px !important;
+}
+
+.btn {
+    height: 50px;
+    border: none !important;
+    font-size: 20px !important;
+    font-style: bold !important;
+}
+
+.task-alert {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through !important;
+}
